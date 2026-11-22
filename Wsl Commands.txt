@@ -1,0 +1,39 @@
+windows Subsystem for Linux (wsl)
+---------------------------------
+WSL stands for Windows Subsystem for Linux. It's a Microsoft feature that lets you run a real Linux system, like your Ubuntu or Kali, right inside Windows, without a separate computer or dual boot.
+
+
+wsl -l -v
+	shows the Linux systems installed in WSL on your laptop.
+	- `wsl` is the main WSL command.
+	- `-l` means list, so it lists your Linux distributions, like your Kali Linux and Ubuntu.
+	- `-v` means verbose, so it also shows extra details: the state, running or stopped, and the WSL version, one or two.
+
+	The one with a star next to its name is your default, the one that opens when you just type `wsl`.
+
+wsl -s Ubuntu
+	Changes the defalt to ubuntu.
+
+wsl -d ubuntu
+	-d stands for distribution, so wsl -d Ubuntu opens Ubuntu specifically
+
+wsl
+	`wsl` opens your default Linux
+	Typing just wsl opens your default Linux. that's Ubuntu now.
+	One more thing: it opens in whatever Windows folder PowerShell was in, like "/mnt/c/Users/" plus your username. 
+	To go to your Linux home folder, type cd ~
+ 
+wsl --shutdown
+	turns off all running Linux systems. Handy when something gets stuck or you want to free up RAM
+  
+wsl --update
+	updates WSL itself. Run it once in a while
+	
+exit (linux)
+	takes you from Ubuntu back to PowerShell
+	
+code (linux)
+	opens the folder you're in, inside VS Code, connected to Ubuntu. 
+	You'll use this one all the time once the WSL extension is in.
+	
+	
