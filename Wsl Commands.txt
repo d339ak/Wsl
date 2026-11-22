@@ -1,6 +1,7 @@
 windows Subsystem for Linux (wsl)
 ---------------------------------
-WSL stands for Windows Subsystem for Linux. It's a Microsoft feature that lets you run a real Linux system, like your Ubuntu or Kali, right inside Windows, without a separate computer or dual boot.
+WSL stands for Windows Subsystem for Linux. It's a Microsoft feature that lets you run a real Linux system, like your Ubuntu or Kali, right inside Windows, 
+without a separate computer or dual boot.
 
 
 wsl -l -v
